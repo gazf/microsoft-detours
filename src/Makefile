@@ -16,7 +16,7 @@ DETOURS_SOURCE_BROWSING = 0
 
 #######################/#######################################################
 ##
-CFLAGS=/W4 /WX /Zi /MTd /Gy /Gm- /Zl /Od /DDETOURS_BITS=$(DETOURS_BITS)
+CFLAGS=/W3 /Zi /MTd /Gy /Gm- /Zl /Od /DDETOURS_BITS=$(DETOURS_BITS)
 !IF $(DETOURS_SOURCE_BROWSING)==1
 CFLAGS=$(CFLAGS) /FR
 !ELSE
